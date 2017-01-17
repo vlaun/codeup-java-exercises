@@ -3,7 +3,7 @@
  */
 public class TypesInJava {
     public static void main(String[] args) {
-        //create variables of every primitive type and print them to the console
+        //create variables of every primitive type and print them to the Console
 
         byte myByte = 127;
         short myShort = 15;
@@ -24,16 +24,16 @@ public class TypesInJava {
         //try to assign a character to a variable that has been declared as an int
 
         int myNumber = 'C';
-        System.out.println(myNumber); //the console will generate a number, but not the character that was input
+        System.out.println(myNumber); //the Console will generate a number, but not the character that was input
 
         //try to define a variable with the name class
         char myClass = 'Z';  //class cannot be used as a name because it is already a class on its own
                              //can only be initialized is given another name.
         System.out.println(myClass);
 
-        //initialize a variable, but do not assign it a value, then try and print it to the console
+        //initialize a variable, but do not assign it a value, then try and print it to the Console
         int myInput = 32;
-        System.out.println(myInput); //console will not initialize the variable without an assigned value.
+        System.out.println(myInput); //Console will not initialize the variable without an assigned value.
 
 
     }

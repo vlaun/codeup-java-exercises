@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="codeup-java-exercises:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/codeup_java_exercises_jar</output-path>
+    <root id="archive" name="codeup-java-exercises.jar">
+      <element id="module-output" name="codeup-java-exercises" />
+    </root>
+  </artifact>
+</component>

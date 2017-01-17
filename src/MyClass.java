@@ -5,13 +5,13 @@ public class MyClass {
     public static void main(String[] args) {
         //declare a variable (name that can store some value) to store integer. Must have semicolon after defined value.
         int x = 10;
-        
+
 
         //print value of variable
 
         System.out.println(x);
 
-        //print out "Hello World" in the console
+        //print out "Hello World" in the Console
         System.out.println("Hello World!");
     }
 }

@@ -18,7 +18,7 @@ public class ScannerClass {
 
         /*Prompt a user to enter a sentence, then store that sentence in a String variable using the .next method.
         Display that sentence back to the user.
-        Do you capture all of the words?  No, the console only prints out the first word of the sentence.
+        Do you capture all of the words?  No, the Console only prints out the first word of the sentence.
          */
 
         String userSentence;
@@ -29,7 +29,7 @@ public class ScannerClass {
                 "" + sc.nextLine());
 
         //Prompt a user to enter 3 words and store each of them in a separate variable, then display them back, each on a newline.
-        //What happens if you enter less than 3 words? The console will not continue until something is populated for the third word.
+        //What happens if you enter less than 3 words? The Console will not continue until something is populated for the third word.
 
         String firstWord;
         String secondWord;

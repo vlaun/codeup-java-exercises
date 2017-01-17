@@ -1,8 +1,11 @@
+import java.util.Scanner;
+
 /**
  * Created by yleanavlaun on 1/4/17.
  */
 public class LoopBasics {
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
         int var = 5;
 
         while (var <= 15) {
@@ -33,20 +36,9 @@ public class LoopBasics {
         while (j >= -5);
 
 
-        int h = 1;
-        int square =  (int) Math.pow(h, 1);
 
-        do {
-            System.out.println("\n");
+        for (int h = 1; i < 1000000; i++);
 
-
-            h += Math.pow(h, 1);
-
-            System.out.println("Loop counter: " + h );
-
-        }
-
-        while (h <= 1000000);
 
 
 //        for (int a = 5; i <= 15; i++) {
@@ -76,22 +68,7 @@ public class LoopBasics {
 //        while (j >= -5);
 //
 //
-//        int h = 1;
-//        int square =  (int) Math.pow(h, 1);
-//
-//        do {
-//            System.out.println("\n");
-//
-//
-//            h += Math.pow(h, 1);
-//
-//            System.out.println("Loop counter: " + h);
-//
-//        }
-//
-//        while (h <= 1000000);
-//
-//
+
 
     }
 
