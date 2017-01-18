@@ -11,26 +11,30 @@ public class FizzBuzz {
 
         do {
             i = i + 1;
+//
+//// prints 1-100
+////            System.out.println(i);
 
-// prints 1-100
-            System.out.println(i);
 
-//            if (i%3==0 && i%5==0)
-//            {
-//                System.out.printf("FizzBuzz\n");
-//            }
-//            else if (i%3==0)
-//            {
-//                System.out.printf("fizz\n");
-//            }
-//            else if (i%5==0)
-//            {
-//                System.out.printf("buzz\n");
-//            }
-//            else
-//            {
-//                System.out.printf("%d\n",i);
-//            }
+//for multiples of both 3 and 5 prints "FizzBuzz"
+            if (i%3==0 && i%5==0)
+            {
+                System.out.printf("FizzBuzz\n");
+            }
+            //For multiples of 3 prints "Fizz
+            else if (i%3==0)
+            {
+                System.out.printf("Fizz\n");
+            }
+            //for multiples of 5 prints "Buzz"
+            else if (i%5==0)
+            {
+                System.out.printf("Buzz\n");
+            }
+            else
+            {
+                System.out.printf("%d\n",i);
+            }
 
         }
         while (i <= 99);
