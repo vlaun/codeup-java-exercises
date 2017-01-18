@@ -35,16 +35,16 @@ public class LoopBasics {
 
         }
         while (j >= -5);
-//
-//
-//
-//        int k = 2;
-//
-//        do {
-//            System.out.println(Math.pow(k, 2));
-//
-//
-//        } while (k < 1000000);
+
+
+
+        int num = 1;
+
+        do {
+            System.out.println(num + Math.pow(num, 2));
+
+
+        } while (num < 1000000);
 
 
     }
