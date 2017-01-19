@@ -3,7 +3,7 @@ package lesson1;
 /**
  * Created by ${yleanavlaun} on ${01/10/2012}.
  */
-public class MyClass {
+public class MyClassInheritance {
     //classes in Java can be extended, creating a new class which keep the characteristics of the base class.
     //in this exercise the base class will be "Polygon"
     // whenever using inheritance, all properties of the base class(in this case "Polygon" are made available

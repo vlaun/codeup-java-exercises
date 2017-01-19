@@ -5,7 +5,7 @@
 // * The application prompts the user to enter a valid within a specified range,
 // * a valid double within a specified range, a required String, and one of two Strings.
 // If an entry isn’t valid, the application displays an appropriate error message.
-// @author Yleana A. Vlaun
+// @author Yleana FirstProgram. Vlaun
 // @version
 // */
 //public class Console {

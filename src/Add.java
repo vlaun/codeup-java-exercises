@@ -17,7 +17,7 @@ public class Add {
 
         //        System.out.println(num1 + num2);
 
-//        char c = 'A';
+//        char c = 'FirstProgram';
         //if want to convert "char" to "int" value, use the following syntax
 //        System.out.println((int)c);
 

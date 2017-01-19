@@ -5,22 +5,38 @@ import java.util.Scanner;
  */
 public class FactorialNumber {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
+
 
         System.out.println("Please input a number:");
-        int number = input.nextInt();
-        int fact = 1;
 
-        for (int i=1; i <= number; i++) {
-            fact = fact*i;
+        long n = scan.nextInt();
+        long result = factorial(n);
+
+        System.out.println("Factorial of " + n + " is " + result);
+    }
+
+    public static long factorial(long n) {
+
+        long result = 1;
+
+        for (long i = 1; i <= n; i++) {
+            result = result * i;
+
 
 //            System.out.println("Would you like to continue?");
         }
-        System.out.println("Factorial of entered number is: ");
-        System.out.println(fact);
-        System.out.println("Would you like to continue?");
+        String choice = "y";
+        while (choice.equalsIgnoreCase("y")) {
+
+            System.out.println("Would you like to continue measuring rooms?");
+//            choice = scan.nextLn();
+
+
 
         }
+        return result;
+    }
 }
 
 

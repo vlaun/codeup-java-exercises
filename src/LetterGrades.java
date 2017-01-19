@@ -15,7 +15,7 @@ public class LetterGrades {
         grade = sc.nextInt();
 
         if(grade >= 88) {
-            message = "Student made an A";
+            message = "Student made an FirstProgram";
         } else if(grade >= 87) {
             message = "Student made a B";
         } else if(grade >= 67) {

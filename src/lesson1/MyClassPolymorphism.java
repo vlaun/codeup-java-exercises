@@ -12,7 +12,7 @@ public class MyClassPolymorphism {
         //when the reference of the parent class points to the object of the subclass this is called upcasting.
 
         //references point to different objects, but all objects point to the "Bank" class
-        
+
         Bank abc = new BankABC();
         Bank def = new BankDEF();
         Bank xyz = new BankXYZ();

@@ -9,7 +9,7 @@ public class ArraysExamples {
 //        //Array.fill(arrayName, value) method
 //
 //        char[] grades = new char [5];
-//        Arrays.fill(grades, 0, 2, 'A');
+//        Arrays.fill(grades, 0, 2, 'FirstProgram');
 //        System.out.println(Arrays.toString(grades));
 
 

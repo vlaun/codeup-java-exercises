@@ -36,7 +36,7 @@ public class EnglishToPigLatin {
 
 
         } while (repeatAgain.equals("y"));
-            repeatAgain = scan.nextLine();
+            repeatAgain = scan.nextLine(); //why does the application not reiterate?
 
             }
 

@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class TableOfPowers {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        String userInput;
+        String choice = "y";
         int h = 2;
         int numberSquared = (int) Math.pow(h, 2);
         int numberCubed = (int) Math.pow(h, 3);
@@ -29,14 +29,16 @@ public class TableOfPowers {
             }
 
 // see if the user wants to continue
-            System.out.print("\nContinue? (y/n): ");
-            userInput = scan.next();
-            System.out.println();
 
 
-        } while(userInput.equalsIgnoreCase("y"));
+        }
+//            String choice = "y";
+        while (choice.equalsIgnoreCase("y"));
+        {
+            System.out.println("Would you like to continue measuring rooms?");
+            choice = scan.next();
 
-
-
+        }
     }
 }
+
