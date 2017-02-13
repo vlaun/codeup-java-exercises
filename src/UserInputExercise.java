@@ -25,7 +25,7 @@ public class UserInputExercise {
         System.out.print(userInputDouble + ("\n"));
         scan.nextLine();
 
-        
+
         System.out.println("Please a message: ");
         String userInputString = scan.nextLine();
 
